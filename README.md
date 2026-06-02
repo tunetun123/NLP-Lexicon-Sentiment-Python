@@ -18,11 +18,12 @@ Sebelum menjalankan program, pastikan Anda telah menyiapkan 3 file berikut:
 
 Aplikasi ini sangat ideal dijalankan melalui **Google Colab** karena tidak memerlukan instalasi lokal yang rumit. Ikuti langkah-langkah berikut:
 
-### 1. Membuat Project Baru
-1. Buka browser dan akses [Google Colab](https://colab.research.google.com/).
-2. Login menggunakan akun Google Anda.
-3. Pada jendela yang muncul, pilih tab **New Notebook**.
-4. Ubah nama *notebook* di sudut kiri atas sesuai keinginan Anda (misalnya: `Sentiment_Analysis.ipynb`).
+### 1. Membuka File Notebook di Colab
+1. Pastikan Anda sudah mengunduh file `Sentiment_Analysis.ipynb` dari repositori ini ke komputer Anda.
+2. Buka browser dan akses [Google Colab](https://colab.research.google.com/).
+3. Login menggunakan akun Google Anda.
+4. Pada jendela *pop-up* yang muncul, pilih tab **Upload**.
+5. Klik **Browse**, lalu cari dan pilih file `Sentiment_Analysis.ipynb` dari komputer Anda. Notebook berisi kode program akan otomatis terbuka.
 
 ### 2. Mengunggah File ke Workspace
 1. Perhatikan bilah sisi (*sidebar*) di sebelah kiri layar Colab, lalu klik ikon **Folder** (Files).
@@ -32,10 +33,10 @@ Aplikasi ini sangat ideal dijalankan melalui **Google Colab** karena tidak memer
 > **Catatan Penting:** File yang diunggah ke Colab bersifat sementara. Jika sesi terputus atau tab ditutup, Anda harus mengunggahnya kembali.
 
 ### 3. Menjalankan Aplikasi
-1. Salin seluruh kode program Python dari repositori ini.
-2. Tempelkan (*paste*) kode tersebut ke dalam sel (*cell*) pertama di Google Colab Anda.
-3. Jalankan sel tersebut dengan menekan tombol **Play** (ikon segitiga di sebelah kiri sel) atau tekan `Shift + Enter` pada keyboard.
-4. Program akan mulai memproses data. Anda bisa melihat progresnya pada log teks yang muncul di bawah blok kode.
+1. Karena kode program sudah tersedia di dalam file notebook, Anda hanya perlu mengeksekusinya.
+2. Anda bisa menjalankan program secara otomatis dengan mengklik menu **Runtime** di bilah navigasi atas, lalu pilih **Run all** (Jalankan semua). 
+3. *Atau*, Anda bisa menjalankan blok kode satu per satu dengan menekan tombol **Play** (ikon segitiga) di sebelah kiri masing-masing sel kode.
+4. Program akan mulai memproses data. Anda bisa melihat progresnya pada log teks yang muncul di bawah blok eksekusi.
 5. Setelah proses selesai, grafik sentimen interaktif akan langsung dirender dan ditampilkan di layar Colab.
 
 ### 4. Mengunduh Hasil Analisis (Output)
